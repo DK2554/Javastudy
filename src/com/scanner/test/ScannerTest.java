@@ -49,6 +49,7 @@ public class ScannerTest {
 		System.out.println("===== 입력결과 =====");
 		System.out.println("이름 : "+name2+" 나이 : "+age2+" 키 : "
 		+height2+" 주소 : "+address2);
+		//committest
 		
 	}
 	
