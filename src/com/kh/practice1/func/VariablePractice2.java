@@ -10,7 +10,7 @@ public class VariablePractice2 {
 		System.out.println("´õÇÏ±â °á°ú:" +(num1+num2));
 		System.out.println("»©±â °á°ú:" +(num1-num2));
 		System.out.println("°öÇÏ±â °á°ú:" +(num1*num2));
-		System.out.println("³ª´°¼À °á°ú:" +(num1/num2));
+		System.out.println("³ª´°¼À °á°ú:" +((double)num1/num2));
 	}
 	
 }
