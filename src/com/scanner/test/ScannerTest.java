@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class ScannerTest {
 
 	public static void main(String[] args) {
-		// 키보드로 입력받은 값 받아오기
+		Scanner sc = new Scanner(System.in);
+		/*// 키보드로 입력받은 값 받아오기
 		// Scanner객체를 이용하면 된다.
 		// 1. java.util.Scanner import함.
 		// 2. Scanner객체를 생성함. -> 변수로 값을 저장함
-		Scanner sc = new Scanner(System.in);
 		// 3. sc.nextInt(),sc.nextDouble().sc.next(),sc.nextLine()를
 		// 이용해서 데이터를 받아옴
 		// System.out.println("당신의 나이는?");
@@ -45,8 +45,11 @@ public class ScannerTest {
 		address2 = sc.nextLine();
 
 		System.out.println("===== 입력결과 =====");
-		System.out.println("이름 : " + name2 + " 나이 : " + age2 + " 키 : " + height2 + " 주소 : " + address2);
-		// committest
+		System.out.println("이름 : " + name2 + " 나이 : " + age2 + " 키 : " + height2 + " 주소 : " + address2);*/
+		//Scanner를 이용해 문자형 char자료 받기
+		System.out.print("문자입력: ");
+		char ch=sc.nextLine().charAt(3);
+		System.out.println(ch);
 
 	}
 
